@@ -9,6 +9,10 @@ html{
  /* background-color: #000;*/
 }
 
+body {
+  background-color: #000000; /* Cor de fundo cinza claro */
+}
+
 .content{
   max-width: 1280px;
   margin:  auto;
@@ -84,6 +88,13 @@ header ul li a {
     justify-content: center;
 }
 
+p{
+  color: #ffffff;
+}
+
+p2{
+  color: #000000;
+}
 .banner h1{
   font-size: 4em;
   color: #d9d9d9;
@@ -138,6 +149,13 @@ header ul li a {
 
 /* image das pessoas */
 
+.img-sobre {
+  box-shadow: #000000;
+  overflow: hidden;
+  height: 450px; /* Altura reduzida para 300px */
+  width: 1500px;
+}
+
 /* SOBRE */
 section.sobre {
     padding: 80px 8%;
@@ -149,6 +167,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h3 {
+  color: #ffffff;
     font-size: 40px;
     line-height: 35px;
     margin-bottom: 30px;
@@ -192,3 +211,63 @@ section.sobre .flex{
     height: 70px; /* Altura do retângulo */
     background-color: black; /* Cor de fundo preta */
 }
+
+
+/*////////////////////////////////////////*/
+
+
+.curiculo {
+  width: 100%;
+  background-color: #1d1d1d;
+  padding: 20px;
+}
+
+.containe {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.text {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 0px;
+  background-color: #ac2a2aff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #791f1f;
+}
+
