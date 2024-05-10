@@ -52,12 +52,29 @@ Controle do DOM para informar ao usuário que o formulário precisa de mais cara
 
  ## <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="30" alt="css3 logo"  />  Vídeos sobre git
 
+* Como Utilizar o GitHub com o VSCode? [video](https://www.youtube.com/watch?v=oAEwp0AGmSo)
+  
+* COMO ENVIAR UM PROJETO PARA O GITHUB [video](https://www.youtube.com/watch?v=lv5a80XgzlI&t=187s)
+  
+* GIT e GITHUB 04 - Enviando Atualizações ao Repositório [video](https://www.youtube.com/watch?v=EbAyAUOmUBM)
 
-## 📌 Versão 0.1
+## 📌 Versão 0.2
+
+
+
+Segunda atualização do site para a versão 0.2, com a adição de um botão que exibe texto e uma imagem de referência.
+
+REFERÊNCIAS
+
+* Sessão Sobre [materias de referência](https://www.youtube.com/watch?v=UjlxmQst17E)
+
+##
+~~Versão 0.1~~
 
 Primeira atualização do site feita por Mateus em 08/05/2024 às 01:35. Criação da primeira página e implementação do texto animado e barra de tarefas animada.
 
- referências
+
+REFERÊNCIAS
 
 * **Menu Transparente com Efeito de Rolagem**  [materias de referência](https://www.youtube.com/watch?v=nxoPx7qOAbQ&t=1401s)
 * **efeito de Texto**  [materias de referência](https://www.youtube.com/watch?v=1HTg3RwcMGg&t=1072s)
