@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  background-color: #000000; /* Cor de fundo cinza claro */
+  background-color: #080808; /* Cor de fundo cinza claro */
 }
 
 .content{
@@ -88,6 +88,10 @@ header ul li a {
     justify-content: center;
 }
 
+h3{
+  color: #ffffff;
+}
+
 p{
   color: #ffffff;
 }
@@ -143,7 +147,7 @@ p2{
     }
     81%, 100% {
         content: "calzinha?";
-    }
+    } 
 }
 
 
