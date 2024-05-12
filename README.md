@@ -58,9 +58,17 @@ Controle do DOM para informar ao usuário que o formulário precisa de mais cara
   
 * GIT e GITHUB 04 - Enviando Atualizações ao Repositório [video](https://www.youtube.com/watch?v=EbAyAUOmUBM)
 
-## 📌 Versão 0.2
+## 📌 Versão 0.3
 
 
+atualização do site para a versão 0.3, com base nesse vídeo e em algumas pesquisas, e após muitas horas de trabalho, consegui criar uma interface de currículo. Ao apertar um botão, ela muda para diferentes currículos.
+
+REFERÊNCIAS
+
+* Crie um Carousel de Imagens com JavaScript 😎 [materias de referência](https://www.youtube.com/watch?v=WHHuqsbvsJI&t=5s)
+
+##
+~~Versão 0.2~~
 
 Segunda atualização do site para a versão 0.2, com a adição de um botão que exibe texto e uma imagem de referência.
 
