@@ -58,8 +58,16 @@ Controle do DOM para informar ao usuário que o formulário precisa de mais cara
   
 * GIT e GITHUB 04 - Enviando Atualizações ao Repositório [video](https://www.youtube.com/watch?v=EbAyAUOmUBM)
 
-## 📌 Versão 0.3
+## 📌 Versão 0.4
 
+Atualização do site com o rodapé do site e atualização das fotos dos membro do grupo.
+
+REFERÊNCIAS
+
+*Como fazer um footer RESPONSIVO usando HTML e CSS (com FLEXBOX e GRID) [materias de referência](https://www.youtube.com/watch?v=SUFzgCwJZkk)
+##
+
+~~Versão 0.3~~
 
 atualização do site para a versão 0.3, com base nesse vídeo e em algumas pesquisas, e após muitas horas de trabalho, consegui criar uma interface de currículo. Ao apertar um botão, ela muda para diferentes currículos.
 
