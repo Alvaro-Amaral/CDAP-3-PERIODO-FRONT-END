@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  background-color: #080808; /* Cor de fundo cinza claro */
+  background-color: #414141; /* Cor de fundo cinza claro */
 }
 
 .content{
@@ -38,6 +38,7 @@ header{
 header.rolagem{
   background-color: #000000;
   padding: 20px 4%;
+  z-index: 1000;
 }
 
 header.rolagem a{
@@ -91,13 +92,33 @@ header ul li a {
 h3{
   color: #ffffff;
 }
-
+h4 {
+  color: #ffffff;
+  font-size: 2em; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+  letter-spacing: 1px; /* Aumenta o espaçamento entre as letras */
+  margin: 20px 0; /* Adiciona margem acima e abaixo */
+  padding: 10px; /* Adiciona preenchimento ao redor do texto */
+  background-color: #2b0202; /* Fundo escuro para destacar o texto */
+  border-radius: 5px; /* Bordas arredondadas */
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+}
 p{
   color: #ffffff;
 }
 
 p2{
   color: #000000;
+}
+
+
+p3{
+  color: #ffffff;
+  font-size: 1.2em; /* Tamanho da fonte maior */
+  font-weight: normal; /* Peso da fonte */
+  line-height: 1.6; /* Altura da linha */
+ 
 }
 .banner h1{
   font-size: 4em;
@@ -223,18 +244,18 @@ section.sobre .flex{
 .curiculo {
   width: 100%;
   background-color: #1d1d1d;
-  padding: 20px;
+  padding: 150px;
 }
 
 .containe {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  background-color: rgb(43, 43, 43);
-  border-radius: 20px;
-  padding: 20px;
+  background-color: rgb(75, 18, 18);
+  padding: 70px;
 }
 
 .content {
+ 
   display: flex;
   align-items: center;
 }
@@ -245,9 +266,9 @@ section.sobre .flex{
 }
 
 .image img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 2%;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -275,3 +296,4 @@ section.sobre .flex{
   background-color: #791f1f;
 }
 
+/*//////////////////////////footer//////////////////////////////////*/

@@ -1,7 +1,7 @@
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
-    header.classList.toggle('rolagem', window.scrollY > 500)
+    header.classList.toggle('rolagem', window.scrollY > 300)
 })
 
 
@@ -17,11 +17,11 @@ let indiceImagem = 0;
 function trocarConteudo(delta) {
   const imagens = ["imagem/mateus.jpeg", "imagem/caio.jpeg", "imagem/alvaro.jpeg ","imagem/dino.jpeg","imagem/lucas.jpeg","imagem/aden.jpeg"];
   const textos = [
-    { titulo: "Aluno: mateus guerra feitosa", descricao: "\n matricular 01625297  \n\n\nvvvfffffffffffffffffffffffffffffffffffffffffffffffffffffff\nvvvfffffffffffffffffffffffffffffffffffffffffffffffffffffff\nvvvvvvffffvvvffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffv\nvvvffffffffffffffffffffffffffffffffffffffffffffffffffff" },
-    { titulo: "Título do Texto 2", descricao: "Texto descritivo 2..." },
-    { titulo: "Título do Texto 3", descricao: "Texto descritivo 3..." },
-    { titulo: "Título do Texto 4", descricao: "Texto descritivo 4..." },
-    { titulo: "Título do Texto 5", descricao: "Texto descritivo 5..." },
+    { titulo: "MATEUS GUERRA FEITOSA ", descricao: " matricular 01625297  \n\nvvvfffffffffffffffffffffffffffffffffffffffffffffffffffffff\nvvvfffffffffffffffffffffffffffffffffffffffffffffffffffffff\nvvvvvvffffvvvffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffv\nvvvffffffffffffffffffffffffffffffffffffffffffffffffffff" },
+    { titulo: "CAIO VINICIUS ARAUJO", descricao: "Texto descritivo 2..." },
+    { titulo: "ÁLVARO AMARAL OLIVEIRA", descricao: "Texto descritivo 3..." },
+    { titulo: "LUCAS BERNADINO SILVESTRE", descricao: "Texto descritivo 4..." },
+    { titulo: "LUCAS BOMFIM DO NASCIMENTO", descricao: "Texto descritivo 5..." },
     { titulo: "Título do Texto 6", descricao: "Texto descritivo 6..." }
   ];
 
