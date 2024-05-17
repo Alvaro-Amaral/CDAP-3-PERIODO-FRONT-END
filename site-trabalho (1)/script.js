@@ -22,7 +22,7 @@ function trocarConteudo(delta) {
     { titulo: "ÁLVARO AMARAL OLIVEIRA", descricao: "Texto descritivo 3..." },
     { titulo: "LUCAS BERNADINO SILVESTRE", descricao: "Texto descritivo 4..." },
     { titulo: "LUCAS BOMFIM DO NASCIMENTO", descricao: "Texto descritivo 5..." },
-    { titulo: "Título do Texto 6", descricao: "Texto descritivo 6..." }
+    { titulo: "ANDERSON JOSÉ SÁTIRO DE OLIVEIRA BARBOSA", descricao: "Matricula:01624883\nUninassau Graças\nTurma:3MD\nCurso:Ciência da Computação\nTurno:Manhã" }
   ];
 
   // Avança ou retrocede o índice da imagem
