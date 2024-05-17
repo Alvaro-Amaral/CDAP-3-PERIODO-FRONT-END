@@ -397,8 +397,8 @@ footer {
 #input_group {
   display: flex;
   align-items: center;
-  background-color: var(--color-neutral-0);
-  border-radius: 4px;
+  background-color: #d6d6d6;
+  border-radius: 15px;
 }
 
 #input_group input {
@@ -408,15 +408,15 @@ footer {
 }
 
 #input_group button {
-  background-color: #7e0101;
+  background-color: #a00404;
   border: none;
   color: var(--color-neutral-40);
   padding: 0px 1.25rem;
   font-size: 1.125rem;
-  height: 100%;
-  border-radius: 0px 4px 4px 0px;
+  height: 102%;
+  border-radius: 0px 14px 14px 0px;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.4s
 }
 
 #input_group button:hover {
