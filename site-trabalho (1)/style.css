@@ -13,7 +13,7 @@ html{
 }
 
 body {
-  background-color: #070707; /* Cor de fundo cinza claro */
+  background-color: #353535; /* Cor de fundo cinza claro */
 }
 
 .content{
@@ -177,11 +177,42 @@ p3{
 
 /* image das pessoas */
 
-.img-sobre {
-  box-shadow: #000000;
-  overflow: hidden;
-  height: 450px; /* Altura reduzida para 300px */
-  width: 1500px;
+.gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 0 2vw;
+}
+.gallery-items{
+  width: 340px;
+  height: 340px;
+  border: 5px solid #FFF;
+  box-shadow: 5px 5px 5px #0006;
+  flex-grow: 1;
+  transition: transform .2s linear;
+  border-radius: 20px;
+}
+.gallery-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.gallery-items:hover{
+  transform: scale(1.3);
+}
+
+
+
+footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-style: italic;
 }
 
 /* SOBRE */
@@ -236,8 +267,8 @@ section.sobre .flex{
 
 .black-divider {
     width: 100%; /* Largura total */
-    height: 70px; /* Altura do retângulo */
-    background-color: black; /* Cor de fundo preta */
+    height: 51px; /* Altura do retângulo */
+    background-color: #353535; /* Cor de fundo preta */
 }
 
 
@@ -423,7 +454,9 @@ footer {
   opacity: 0.8;
 }
 
-#footer_copyright {
+#footer_copyright { 
+  position: absolute;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   background-color: var(--color-neutral-0);
