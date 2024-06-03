@@ -13,7 +13,7 @@ html{
 }
 
 body {
-  background-color: #353535; /* Cor de fundo cinza claro */
+  background-color: #131313; /* Cor de fundo cinza claro */
 }
 
 .content{
@@ -290,8 +290,8 @@ section.sobre .flex{
 
 .black-divider {
     width: 100%; /* Largura total */
-    height: 51px; /* Altura do retângulo */
-    background-color: #353535; /* Cor de fundo preta */
+    height: 100px; /* Altura do retângulo */
+    background-color: #000000; /* Cor de fundo preta */
 }
 
 
