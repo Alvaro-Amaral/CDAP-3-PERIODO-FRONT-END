@@ -1,19 +1,19 @@
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
-<<<<<<< HEAD:site-trabalho (1)/script/script.js
-    header.classList.toggle('rolagem', window.scrollY > 2)
-=======
-    header.classList.toggle('rolagem', window.scrollY > 1)
->>>>>>> e8b2610322fce6fb0318d6f1f4eb335d0db34ac6:site-trabalho (1)/script.js
+    header.classList.toggle('rolagem', window.scrollY > 300)
 })
 
 
 
+function toggle(){
+    document.querySelector('.texto').classList.toggle('visivel')
+}
+
 ////////////curiculo///////////////
 
+let indiceImagem = 0;
 
-<<<<<<< HEAD:site-trabalho (1)/script/script.js
 function trocarConteudo(delta) {
   const imagens = ["../imagem/mateus.jpeg", "../imagem/caio.jpeg", "../imagem/alvaro.jpeg ","../imagem/dino.jpeg","../imagem/lucas.jpeg","../imagem/aden.jpeg"];
   const textos = [
@@ -23,27 +23,15 @@ function trocarConteudo(delta) {
     { titulo: "LUCAS BERNADINO SILVESTRE", descricao: "Olá, sou Lucas Bernardino Silvestre, estagiário na Compass UOL e estudante de Ciência da Computação (3º período) na UNINASSAU. Minha paixão é o desenvolvimento back-end, com um foco especial em Java e Spring Boot.\nTenho experiência com várias tecnologias, incluindo Java com Spring Boot, AWS, C# e .NET, além de HTML, CSS, JavaScript, Git, GitHub e PostgreSQL. Essas habilidades me permitem abordar projetos com uma visão ampla e integrada, garantindo soluções eficientes e de alta qualidade.\nMeu principal objetivo é me especializar em back-end, aplicando minhas habilidades e conhecimentos em projetos desafiadores e inovadores. Estou sempre em busca de novas oportunidades para crescer profissionalmente e contribuir para o sucesso das equipes e projetos dos quais faço parte." },
     { titulo: "LUCAS BOMFIM DO NASCIMENTO", descricao: "Olá, sou Lucas Bomfim do Nascimento, estudante do 3º período na UNINASSAU, cursando Ciência da Computação.\nAtualmente, estou estagiando na UOL Compass, onde tenho a oportunidade de aplicar meus conhecimentos em Typescript em projetos reais. Além disso, complementei minha formação com o curso completo de Front-End pela Alura em parceria com a Oracle.Tenho experiência com diversas tecnologias, incluindo C#, .NET, HTML, CSS, JavaScript, Git, GitHub, PostgreSQL, Node.js, Express.js e AWS. Essas habilidades me permitem desenvolver soluções completas e robustas, tanto no front-end quanto no back-end.\nEstou comprometido em aprimorar minhas habilidades e explorar novas tecnologias para me tornar um desenvolvedor móvel altamente qualificado e contribuir de forma significativa para projetos inovadores." },
     { titulo: "ANDERSON JOSÉ SÁTIRO DE OLIVEIRA BARBOSA", descricao: "Olá, sou Anderson José Sátiro de Oliveira Barbosa, estudante do 3º período de Ciência da Computação na UNINASSAU. Atualmente, estou focado em expandir meus conhecimentos em áreas como Java, JavaScript, HTML e CSS. Além disso, tenho experiência com Scrum, uma metodologia ágil essencial para o desenvolvimento de projetos de software de forma eficiente e colaborativa.\nEstou realizando o curso de Java com Spring Boot oferecido pelo Alura em parceria com a Oracle, o que me proporcionará um entendimento aprofundado sobre o desenvolvimento de aplicações robustas e escaláveis.\nEstou comprometido em seguir uma jornada de constante aprendizado e crescimento na área de tecnologia, buscando sempre novos desafios e oportunidades para aplicar e expandir meus conhecimentos."}
-=======
-document.getElementById('aumentar').addEventListener('click', function() {
-  let imagens = document.querySelectorAll('.gallery-container img');
-  imagens.forEach(img => {
-      let larguraAtual = img.clientWidth;
-      let novaLargura = larguraAtual * 1.1;
-      if (novaLargura <= 430) { // Limite máximo
-          img.style.width = novaLargura + 'px';
-      }
-  });
-});
->>>>>>> e8b2610322fce6fb0318d6f1f4eb335d0db34ac6:site-trabalho (1)/script.js
+];
 
-document.getElementById('diminuir').addEventListener('click', function() {
-  let imagens = document.querySelectorAll('.gallery-container img');
-  imagens.forEach(img => {
-      let larguraAtual = img.clientWidth;
-      let novaLargura = larguraAtual * 0.9;
-      if (novaLargura >= 250) { // Limite mínimo
-          img.style.width = novaLargura + 'px';
-      }
-  });
-});
+// Avança ou retrocede o índice da imagem
+indiceImagem = (indiceImagem + delta + imagens.length) % imagens.length;
 
+// Atualiza o texto
+document.getElementById("titulo").innerText = textos[indiceImagem].titulo;
+document.getElementById("descricao").innerText = textos[indiceImagem].descricao;
+
+// Atualiza a imagem
+document.getElementById("imagem").src = imagens[indiceImagem];
+}
