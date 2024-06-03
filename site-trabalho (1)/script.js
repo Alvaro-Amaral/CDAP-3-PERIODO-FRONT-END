@@ -6,28 +6,28 @@ window.addEventListener("scroll", function(){
 
 
 
-function toggle(){
-    document.querySelector('.texto').classList.toggle('visivel')
-}
-
 ////////////curiculo///////////////
 
-let indiceImagem = 0;
 
 document.getElementById('aumentar').addEventListener('click', function() {
-  let imagens = document.querySelectorAll('.redimensionavel');
+  let imagens = document.querySelectorAll('.gallery-container img');
   imagens.forEach(img => {
       let larguraAtual = img.clientWidth;
-      img.style.width = (larguraAtual * 1.1) + 'px';
+      let novaLargura = larguraAtual * 1.1;
+      if (novaLargura <= 430) { // Limite máximo
+          img.style.width = novaLargura + 'px';
+      }
   });
 });
 
 document.getElementById('diminuir').addEventListener('click', function() {
-  let imagens = document.querySelectorAll('.redimensionavel');
+  let imagens = document.querySelectorAll('.gallery-container img');
   imagens.forEach(img => {
       let larguraAtual = img.clientWidth;
-      img.style.width = (larguraAtual * 0.9) + 'px';
+      let novaLargura = larguraAtual * 0.9;
+      if (novaLargura >= 250) { // Limite mínimo
+          img.style.width = novaLargura + 'px';
+      }
   });
 });
-
 

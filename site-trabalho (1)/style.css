@@ -179,6 +179,7 @@ p3{
 /* image das pessoas */
 
 .gallery-container{
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -188,8 +189,8 @@ p3{
 .gallery-items{
   width: 340px;
   height: 340px;
-  border: 5px solid #FFF;
-  box-shadow: 5px 5px 5px #0006;
+ 
+  
   flex-grow: 1;
   transition: transform .2s linear;
   border-radius: 20px;
@@ -199,6 +200,8 @@ p3{
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
+  border: 5px solid #FFF;
+  box-shadow: 5px 5px 5px #0006;
 }
 .redimensionavel {
   transition: width 0.3s, height 0.3s; /* Adiciona uma transição suave */
