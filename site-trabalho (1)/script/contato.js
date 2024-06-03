@@ -11,9 +11,9 @@ function validateEmail() {
   var message = document.getElementById('message');
 
   if (email.includes('@')) {
-    message.textContent = 'Gmail enviado com sucesso!';
+    message.textContent = 'Email enviado com sucesso, MUITO OBRIGADO!';
   } else {
-    message.textContent = 'Gmail inválido!';
+    message.textContent = 'Email inválido!';
   }
 }
 
