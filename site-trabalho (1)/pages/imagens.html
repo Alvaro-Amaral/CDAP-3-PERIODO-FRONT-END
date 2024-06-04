@@ -10,6 +10,7 @@
   
 </head>
 <div class="black-divider"></div>
+<div class="black-divider"></div>
 
   <header id="header">
     <div class="container">
@@ -18,12 +19,11 @@
         
         <a href="index.html"><i class="fa fa-home"></i> </a>
         <nav>
-          <ul>
-            <li><a href="index.html" >HOME </a></li>
-            <li><a href="imagens.html" >GALERIA </a></li>
-            <li><a href="https://github.com/Alvaro-Amaral/CDAP-3-PERIODO-FRONT-END" >GIT HUB</a></li>
-
-          </ul>
+            <ul>
+                <li><a href="index.html" >HOME </a></li>
+                <li><a href="imagens.html" >GALERIA </a></li>
+                <li><a href="https://github.com/Alvaro-Amaral/CDAP-3-PERIODO-FRONT-END" >GIT HUB</a></li>
+              </ul>
         </nav>
 
         <div class="btn-contato">
@@ -34,7 +34,7 @@
     </div>
   </header>
 
- 
+  <article>
   
   <!-- Divisão com o retângulo preto -->
   <div class="black-divider"></div>
@@ -106,11 +106,14 @@
   <img src="../imagem/aa20.jpg" alt="Tow Mater"class="redimensionavel">
 </a>
   </div>        
-    
+  
+  <button id="toTopBtn" onclick="scrollToTop()"></button>
   </main>
+  
   <div class="black-divider"></div>
   <div class="black-divider"></div>
   <footer>
+    
     <div id="footer_content">
       <div id="footer_contacts">
           <h1>BOLINHAS</h1>
@@ -161,30 +164,30 @@
           </li>
       </ul>
 
-      <div id="footer_subscribe">
-          <h3>Subscribe</h3>
-
-          <p>
-               Digite seu e-mail para ser notificado sobre 
-               nossas soluções de notícias
-             
-          </p>
-
-          <div id="input_group">
-              <input type="email" id="email">
-              <button>
-                  <i class="fa-regular fa-envelope"></i>
-              </button>
-          </div>
-      </div>
+      <ul class="footer-list">
+        <li>
+            <h3>Departamentos</h3>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Hardware</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Celular</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">Periféricos</a>
+        </li>
+    </ul>
   </div>
+
 
   <div id="footer_copyright">
       &#169
       2024 Todos os direitos reservados a Bolinhas corp™
   </div>
   </footer>
-
+  </article>
+  <div class="black-divid"></div>
 <body>
  
   <script src="../script/image.js"></script>

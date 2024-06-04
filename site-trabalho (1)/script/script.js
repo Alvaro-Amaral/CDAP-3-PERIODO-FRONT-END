@@ -1,7 +1,7 @@
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
-    header.classList.toggle('rolagem', window.scrollY > 300)
+    header.classList.toggle('rolagem', window.scrollY > 3)
 })
 
 
@@ -15,7 +15,7 @@ function toggle(){
 let indiceImagem = 0;
 
 function trocarConteudo(delta) {
-  const imagens = ["../imagem/mateus.jpeg", "../imagem/caio.jpeg", "../imagem/alvaro.jpeg ","../imagem/dino.jpeg","../imagem/lucas.jpeg","../imagem/aden.jpeg"];
+  const imagens = ["../imagem/mateus.jpeg", "../imagem/caio.jpeg", "../imagem/c.jpeg ","../imagem/dino.jpeg","../imagem/lucas.jpeg","../imagem/aden.jpeg"];
   const textos = [
     { titulo: "MATEUS GUERRA FEITOSA ", descricao: "Olá, sou Mateus Guerra Feitosa, estudante do 3º período na UNINASSAU, cursando Ciência da Computação. Meu principal foco é o desenvolvimento back-end, onde tenho aprofundado meus conhecimentos e habilidades.\nPossuo um ótimo conhecimento em front-end, um bom domínio de Java e experiência em Python. Essas competências complementam minha especialização em back-end, permitindo-me desenvolver soluções robustas e eficientes.\nEstou comprometido em expandir meu conhecimento e explorar novas oportunidades na área de tecnologia, sempre buscando desafios que me permitam crescer profissionalmente e contribuir de forma significativa para os projetos dos quais faço parte." },
     { titulo: "CAIO VINICIUS ARAUJO", descricao: "Olá, sou Caio Vinicius Araujo, estudante do 3º período de Ciência da Computação na UNINASSAU. Além disso, trago uma experiência valiosa como ex-militar, onde desenvolvi habilidades como disciplina, organização e trabalho em equipe.\nComplementando minha formação, possuo experiência em manutenção de computadores e sou técnico em desenvolvimento de sistemas. Estou comprometido em continuar aprendendo e buscando oportunidades para crescer tanto pessoal quanto profissionalmente na área de tecnolo" },

@@ -8,12 +8,12 @@
   font-family: 'Poppins', sans-serif;
 }
 html{
-  height: 100vh;
+  height: 200vh;
  /* background-color: #000;*/
 }
 
 body {
-  background-color: #131313; /* Cor de fundo cinza claro */
+  background-color: #070707; /* Cor de fundo cinza claro */
 }
 
 .content{
@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -20px;
 }
 
 
@@ -157,85 +156,33 @@ p3{
 
 
 
+
 @keyframes palavras {
-    0%, 20% {
-        content: "Inovação e Criatividade ";
-    }
-    21%, 40% {
-        content: "Tecnologia de Ponta";
-    }
-    41%, 60% {
-        content: "Soluções Inteligentes";
-    }
-    61%, 80% {
-        content: "Conectando Pessoas";
-    }
-    81%, 100% {
-        content: "Futuro Sustentável";
-    } 
+  0%, 20% {
+      content: "Inovação e Criatividade ";
+  }
+  21%, 40% {
+      content: "Tecnologia de Ponta";
+  }
+  41%, 60% {
+      content: "Soluções Inteligentes";
+  }
+  61%, 80% {
+      content: "Conectando Pessoas";
+  }
+  81%, 100% {
+      content: "Futuro Sustentável";
+  } 
 }
 
 
 /* image das pessoas */
 
-.gallery-container{
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 2vw;
-  padding: 0 2vw;
-}
-.gallery-items{
-  width: 340px;
-  height: 340px;
- 
-  
-  flex-grow: 1;
-  transition: transform .2s linear;
-  border-radius: 20px;
-}
-.gallery-items img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 15px;
-  border: 5px solid #FFF;
-  box-shadow: 5px 5px 5px #0006;
-}
-.redimensionavel {
-  transition: width 0.3s, height 0.3s; /* Adiciona uma transição suave */
-}
-
-.gallery-items:hover{
-  transform: scale(1.1);
-}
-#botoes-flutuantes {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  z-index: 100;
-}
-
-#botoes-flutuantes button {
-  padding: 2.5px 5px;
-  font-size: 16px;
-  cursor: pointer;
-  opacity: 0.7;
-  border-radius: 12px;
-}
-
-
-footer{
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  font-style: italic;
+.img-sobre {
+  box-shadow: #000000;
+  overflow: hidden;
+  height: 450px; /* Altura reduzida para 300px */
+  width: 1500px;
 }
 
 /* SOBRE */
@@ -272,7 +219,7 @@ section.sobre .flex{
 }
 
 .visivel{
-  height: 80px;
+  height: 75px;
 }
 /*butom*/
 
@@ -290,8 +237,8 @@ section.sobre .flex{
 
 .black-divider {
     width: 100%; /* Largura total */
-    height: 100px; /* Altura do retângulo */
-    background-color: #000000; /* Cor de fundo preta */
+    height: 70px; /* Altura do retângulo */
+    background-color: black; /* Cor de fundo preta */
 }
 
 
@@ -451,8 +398,8 @@ footer {
 #input_group {
   display: flex;
   align-items: center;
-  background-color: #d6d6d6;
-  border-radius: 15px;
+  background-color: var(--color-neutral-0);
+  border-radius: 4px;
 }
 
 #input_group input {
@@ -462,27 +409,25 @@ footer {
 }
 
 #input_group button {
-  background-color: #a00404;
+  background-color: #7e0101;
   border: none;
   color: var(--color-neutral-40);
   padding: 0px 1.25rem;
   font-size: 1.125rem;
-  height: 102%;
-  border-radius: 0px 14px 14px 0px;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
   cursor: pointer;
-  transition: all 0.4s
+  transition: all 0.4s;
 }
 
 #input_group button:hover {
   opacity: 0.8;
 }
 
-#footer_copyright { 
-  position: absolute;
-  margin-top: 210px;
+#footer_copyright {
   display: flex;
   justify-content: center;
-  
+  background-color: var(--color-neutral-0);
   font-size: 0.9rem;
   padding: 1.5rem;
   font-weight: 100;

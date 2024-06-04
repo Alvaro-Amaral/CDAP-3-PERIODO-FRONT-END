@@ -31,3 +31,13 @@ document.getElementById('diminuir').addEventListener('click', function() {
   });
 });
 
+
+ // Mostrar ou ocultar o botão com base na rolagem da página
+ window.onscroll = function() {
+    document.getElementById('toTopBtn').style.display = window.scrollY > 100 ? 'block' : 'none';
+  };
+
+  // Função para rolar suavemente até o topo
+  function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }

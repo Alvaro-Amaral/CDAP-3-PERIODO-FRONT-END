@@ -25,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -20px;
+   
 }
 
 
@@ -157,24 +157,6 @@ p3{
 
 
 
-@keyframes palavras {
-    0%, 20% {
-        content: "texto1 ";
-    }
-    21%, 40% {
-        content: "texto2";
-    }
-    41%, 60% {
-        content: "texto3";
-    }
-    61%, 80% {
-        content: "texto4";
-    }
-    81%, 100% {
-        content: "texto5";
-    } 
-}
-
 
 /* image das pessoas */
 
@@ -295,63 +277,12 @@ section.sobre .flex{
 }
 
 
-/*////////////////////////////////////////*/
-
-
-.curiculo {
-  width: 100%;
-  background-color: #1d1d1d;
-  padding: 150px;
+.black-divid {
+  width: 100%; /* Largura total */
+  height: 51px; /* Altura do retângulo */
+  background-color: #000000; /* Cor de fundo preta */
 }
 
-.containe {
-  width: 100%;
-  margin: 0 auto;
-  background-color: rgb(75, 18, 18);
-  padding: 70px;
-}
-
-.content {
- 
-  display: flex;
-  align-items: center;
-}
-
-.image {
-  flex: 1;
-  text-align: center;
-}
-
-.image img {
-  border-radius: 2%;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.text {
-  flex: 2;
-  padding: 0 20px;
-}
-
-.buttons {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.buttons button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  border: none;
-  border-radius: 0px;
-  background-color: #ac2a2aff;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-.buttons button:hover {
-  background-color: #791f1f;
-}
 
 /*//////////////////////////footer//////////////////////////////////*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
@@ -379,10 +310,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
+  width: 100%;
 }
 
 #footer_contacts h1 {
   margin-bottom: 0.75rem;
+  
 }
 
 #footer_social_media {
@@ -479,13 +412,14 @@ footer {
 
 #footer_copyright { 
   position: absolute;
-  margin-top: 210px;
+  margin-top: 300px;
   display: flex;
   justify-content: center;
-  
+  width: 100%;
   font-size: 0.9rem;
   padding: 1.5rem;
   font-weight: 100;
+  background-color: #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -501,3 +435,32 @@ footer {
       padding: 3rem 2rem;
   }
 }
+
+
+
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  width: 50px; 
+  font-size: 8px;
+  background-color: rgb(136, 27, 27);
+  color: white;
+  border: 2px solid rgb(36, 14, 14); /* Adiciona a borda ao redor do botão */
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  transition: opacity 0.3s;
+}
+
+    #toTopBtn:hover {
+      background-color: darkred;
+    }
+
+    #toTopBtn:after {
+      content: " ↑ ";
+      font-size: 20px;
+    }
